@@ -1,0 +1,35 @@
+.cancellationSurvey__mainWrapper {
+  background-color: transparent;
+  width: 57%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cancellationSurvey__titleAndBackWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cancellationSurvey__IoIosArrowBack {
+  color: black;
+}
+
+.cancellationSurvey__iconWrapper {
+  height: 20px;
+  width: 20px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 19px;
+  border: 1.6px solid rgb(238, 238, 238);
+  border-radius: 4px;
+}
+
+.cancellationSurvey__lineStyle {
+  border: 1.2px solid rgb(238, 238, 238);
+  margin: 12px 0px 25px 0px;
+  background-color: rgb(238, 238, 238);
+}

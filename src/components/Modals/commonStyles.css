@@ -1,0 +1,58 @@
+.confirmationModal__modal {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 35%;
+  margin-top: 10%;
+  border-radius: 5px;
+  background-color: var(--white);
+  padding: 2%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.confirmationModal__cardWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.confirmationModal__card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.confirmationModal__closeIcon {
+  margin-left: 98%;
+}
+
+.confirmationModal__offerButton {
+  background-color: #286ef1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: var(--white);
+  margin-right: 10px;
+}
+
+.confirmationModal__buttonsWrapper {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.confirmationModal__left {
+  width: 10%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmationModal__right {
+  width: 90%;
+}
+.confirmationModal__cancelSurveyLink {
+  color: blue;
+}

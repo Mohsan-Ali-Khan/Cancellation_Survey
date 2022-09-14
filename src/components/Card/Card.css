@@ -1,0 +1,170 @@
+.surveyCard__card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--white);
+  padding: 60px;
+}
+
+.surveyCard__cardWrapper {
+  display: flex;
+  justify-content: center;
+}
+.surveyCard__card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.surveyCard__radioOptions {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.surveyCard__textArea {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 96%;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid rgb(240, 240, 240);
+}
+
+.surveyCard__textArea:focus-visible {
+  border: 1px solid rgb(240, 240, 240);
+  outline: none;
+}
+
+.surveyCard__radioBtnWrapper {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 45px;
+  background: transparent;
+  border: 1px solid rgb(240, 240, 240);
+}
+.surveyCard__radioBtnWrapper:hover {
+  margin-bottom: 11px;
+  padding: 10px;
+  border-radius: 45px;
+  background: transparent;
+}
+
+.surveyCard__radioBtnSelectedWrapper {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 45px;
+  background: #a9c5f9;
+  border: 1px solid rgb(240, 240, 240);
+}
+.surveyCard__radioBtnSelectedWrapper:hover {
+  margin-bottom: 11px;
+  padding: 10px;
+  border-radius: 45px;
+  background: #a9c5f9;
+}
+
+.surveyCard__warningText {
+  width: 95%;
+  align-items: baseline;
+  color: rgb(73, 73, 73);
+  font-size: 14.5px;
+}
+.surveyCard__warningWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #feecec;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.surveyCard__warningIcon {
+  margin-top: 2.5%;
+}
+.surveyCard__excIcon {
+  color: red;
+}
+
+.surveyCard__noOptionButtonsWrapper {
+  width: 30%;
+  margin-top: 20px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  right: auto;
+}
+
+.surveyCard__selectedOptionsButtonsWrapper {
+  width: 100%;
+  margin-top: 20px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  right: auto;
+}
+
+.surveyCard__cancelFormBtn {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  background: transparent;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+.surveyCard__productSelect {
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 10px;
+  width: 100%;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid rgb(240, 240, 240);
+}
+
+.surveyCard__btn-group {
+  width: fit-content;
+  margin-bottom: 10px;
+  display: flex;
+
+  border: 1px solid rgb(240, 240, 240);
+  flex-wrap: wrap;
+  border-radius: 4px;
+}
+
+.surveyCard__selectedOption {
+  background-color: #a9c5f9;
+  color: white;
+}
+
+.surveyCard__noSelectedOption {
+  background-color: #df0202;
+  color: rgb(0, 0, 0);
+}
+
+.surveyCard__cancelMembershipBtn {
+  background-color: #f13b3c;
+  color: var(--white);
+  border: none;
+  border-radius: 3px;
+  font-family: sans-serif;
+}
+
+.surveyCard__labelFonts{
+ font-size: small;
+}
+
+.surveyCard__selected-menu{
+  background-color: #d3e2ff;
+  color: #2a70f1;
+  font-size: small;
+  display: flex;
+  justify-content: center;align-items: center;
+  padding: 8px;
+}
+
+.surveyCard__abc{
+  font-size: small;
+  padding: 8px;
+  display: flex;justify-content: center;align-items: center;
+}

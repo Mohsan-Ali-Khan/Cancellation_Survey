@@ -1,0 +1,15 @@
+.header__container {
+  background-color: var(--black);
+  height: var(--headerHeight);
+  box-shadow: 0px 3px 0px 0px var(--offWhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  position: fixed !important; /*MUI style override*/
+  top: 0;
+  right: 0;
+  padding-left: 0px !important; /*MUI style override*/
+  padding-right: 0px !important; /*MUI style override*/
+}
+
